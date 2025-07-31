@@ -4,10 +4,10 @@ This project demonstrates a complete ETL (Extract, Transform, Load) pipeline bui
 
 By leveraging AWS Lambda, S3, and CloudWatch, we ensure a fully automated and serverless solution for fetching, processing, and storing music data. The data pipeline enables organizations to analyze global music trends and derive actionable insights with ease.
 
-#Archirecture
+ **Architecture**
 ![spotify-etl-using-snowflake-architecture-diagram](https://github.com/user-attachments/assets/5faf2a5f-9b70-43fb-a763-26e9669c96cd)
 
-Data Source
+**Data Source**
 We use the Spotify Web API to fetch data from the Top 50 Global Playlist, which includes:
 
 Track Name
@@ -21,20 +21,20 @@ External Links
 
 Data is retrieved in JSON format using the Python spotipy client, then transformed into structured tabular data for storage and querying in Snowflake.
 
-🔧 Technologies & Services Used
+**🔧 Technologies & Services Used**
 🎵 Spotify API (Spotipy) – Fetches Top 50 Global playlist data in JSON format.
 
 🐍 Python Libraries:
 spotipy – API wrapper for Spotify
 pandas – Data manipulation
 
-☁️ AWS Services:
+**☁️ AWS Services:**
 
 S3 – Stores raw and transformed data
 Lambda – Serverless compute for ETL automation
 CloudWatch – Logs and scheduled Lambda triggers
 
-❄️ Snowflake:
+**❄️ Snowflake:**
 
 Data Warehouse – Stores structured music data
 Snowpipe – Automatically ingests transformed data from S3 for querying
