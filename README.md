@@ -1,1 +1,1 @@
-# spotify-end-end-project
+# spotify-end-to-end-project
