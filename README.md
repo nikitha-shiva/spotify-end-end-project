@@ -4,7 +4,7 @@ This project demonstrates a complete ETL (Extract, Transform, Load) pipeline bui
 
 By leveraging AWS Lambda, S3, and CloudWatch, we ensure a fully automated and serverless solution for fetching, processing, and storing music data. The data pipeline enables organizations to analyze global music trends and derive actionable insights with ease.
 
-Archirecture
+#Archirecture
 ![spotify-etl-using-snowflake-architecture-diagram](https://github.com/user-attachments/assets/5faf2a5f-9b70-43fb-a763-26e9669c96cd)
 
 Data Source
